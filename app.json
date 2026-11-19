@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Happy Hearts",
+    "slug": "happy-hearts",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/happy-hearts.jpeg",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nexora.happyhearts"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.nexora.happyhearts"
+    },
+    "web": {
+      "favicon": "./assets/happy-hearts.jpeg"
+    },
+    "scheme": "happyhearts",
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
