@@ -492,7 +492,7 @@ export default function App() {
                   <Text style={s.body}>No. 198/2, Bolabotuwa, Bandaragama</Text>
                   {button(
                     "Call +94 765799580",
-                    () => Linking.openURL("tel:+94382292249"),
+                    () => Linking.openURL("tel:+94765799580"),
                     true,
                   )}
                   {button(
